@@ -1,10 +1,5 @@
 const functionMethods = require('../main');
 
-
-it ('should add two numbers', () => {
-    expect(functionMethods.add(2, 3)).toBe(5);
-});
-
 it ('should start number is smaller than end number', () => {
 	const startNumber = 2;
 	const endNumber = 4;

@@ -1,7 +1,3 @@
-function add (left, right) {
-    return left + right;
-}
-
 function isStartNumberSmallerThanEndNumber (startNumber, endNumber) {
     return ((startNumber < endNumber) ? true : false);
 }
@@ -38,7 +34,7 @@ function createMultiplyTable (startNumber, endNumber) {
 return MultiplicationTable;
 }
 
-module.exports =  { add :  add , 
+module.exports =  {
  isStartNumberSmallerThanEndNumber : isStartNumberSmallerThanEndNumber,
  isNumbersInRange : isNumbersInRange,
  concatenatePerMultipliedStartandEndNumber : concatenatePerMultipliedStartandEndNumber,
